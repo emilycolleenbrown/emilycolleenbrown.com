@@ -1,17 +1,4 @@
-# Parchment
-A clean, single column blog template built for jekyll
-
-## Building Locally
-* Clone the repository
-* Run `bundle install`
-* Run `bundle exec jekyll serve`
-* Visit browser at `http://127.0.0.1:4000/parchment/`
-
 ## Usage
-
-* To use this as your GitHub Page, fork this repository, and
-  rename it to `<username>.github.io`. Your site will be live
-  at `https://<username>.github.io/parchment-jekyll`.
 
 * You can customise variables in `_config.yml` and `css/*` files.
 
@@ -25,13 +12,8 @@ A clean, single column blog template built for jekyll
 * To add a profile picture, use class `profile-picture` around
   the image.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an
-issue first to discuss what you would like to change.
-
 ## Credits
-Parchment is inspired from the resume theme
-[Researcher](https://github.com/ankitsultana/researcher)
+Based on the [parchment theme](https://github.com/rhl-bthr/parchment).
 
 ## License
 [GNU GPL v3](LICENSE)
