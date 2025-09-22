@@ -1,19 +1,25 @@
-<div class="navbar">
-    <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/">{{ site.title }}</a>
+<nav class="navbar">
+    <div class="navbar-container">
+        <a class="site-title" href="{{ site.url }}{{ site.baseurl}}/">{{ site.title }}</a>
 
-    <ul class="pull-right">
-        {% for x in site.navbar %}
-        <li class="pull-left">
-            {% if x.absolute-link %}
-                {% assign x-url = x.absolute-link %}
-            {% else %}
-                {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
-            {% endif %}
-            <a href="{{ x-url }}">{{ x.name }}</a>
-            {% if forloop.last == false %}/{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-
-    <hr>
-</div>
+        <ul class="navbar-nav">
+            {% for x in site.navbar %}
+            <li class="nav-item">
+                {% if x.absolute-link %}
+                    {% assign x-url = x.absolute-link %}
+                    {% assign is_current = false %}
+                {% else %}
+                    {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
+                    {% assign page_path = "/" | append: x.link | append: "/" %}
+                    {% assign is_current = false %}
+                    {% if page.url == page_path or page.url contains x.link %}
+                        {% assign is_current = true %}
+                    {% endif %}
+                {% endif %}
+                <a href="{{ x-url }}" class="nav-link{% if is_current %} current{% endif %}">{{ x.name }}</a>
+                {% if forloop.last == false %}<span class="nav-separator">/</span>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
+<div class="title">{{ page.title }}</div>
 <div class="page-subtitle">
+    <span class="monospace">{{ page.date | date: "%d %B %Y" }} </span>
     {% for tag in page.tags %}
         {% if page.tags.first == tag %}
-            <b>[</b>
         {% endif %}
         <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
         {% if page.tags.last == tag %}
-            <b>]</b>
         {% else %}
             ,
         {% endif %}
@@ -17,3 +16,4 @@ layout: default
 </div>
 
 {{content}}
+

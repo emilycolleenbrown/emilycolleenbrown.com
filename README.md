@@ -12,5 +12,8 @@
 ## Credits
 Based on the [parchment theme](https://github.com/rhl-bthr/parchment).
 
+## Local (for Kyle)
+`bundle exec jekyll serve --trace --livereload`
+
 ## License
 [GNU GPL v3](LICENSE)

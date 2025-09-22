@@ -1,8 +1,8 @@
-<div class="footer">
-    {% if page.url == "/" and site.footer_only_homepage %}
-        <hr>
-        <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
-    {% else %}
-        <br>
-    {% endif %}
+<div class="footer navbar-container">
+    <div class="monospace">© {{ site.time | date: "%Y" }} Emily Brown</div>
+    <div>
+        <a href="https://twitter.com/emilybrownmusic" target="_blank" class="">Twitter</a>
+        <a href="https://instagram.com/emilybrownmusic" target="_blank" class="">Instagram</a>
+        <a href="mailto:Emilycolleenbrown@gmail.com" target="_blank" class="">Email</a>
+    </div>
 </div>
