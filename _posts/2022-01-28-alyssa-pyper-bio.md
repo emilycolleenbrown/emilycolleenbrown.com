@@ -3,7 +3,7 @@ layout: post
 title: Narrative Bio for Alyssa Pyper
 subtitle: Powerful artist biography using imagery and lyrical motifs for experimental folk musician's debut album
 client: Song Club Records
-date: 2022-01-28
+date: 2021-09-17
 tags: [copywriting, music-industry]
 thumbnail-image: ../assets/thumbnails/Alyssa-Pyper.jpeg
 pdf: ../assets/pdfs/Alyssa-Pyper.pdf
