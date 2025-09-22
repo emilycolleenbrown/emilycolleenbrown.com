@@ -5,6 +5,7 @@ subtitle: Narrative-driven article addressing IT manager pain points with softwa
 client: BrainStorm
 date: 2022-01-27
 tags: [content-marketing, software-training]
+thumbnail-image: ../assets/thumbnails/2-Hours-ILT.png
 ---
 
 I had a great time writing this article on Instructor Led Training for software adoption company BrainStorm. I directed the article at pain-points faced by administrators and IT managers in troubleshooting with or educating employees, and built a narrative around "Bob from Marketing" (who's got a lot of questions about Excel) to show how Instructor Led Training solves those problems long-term.

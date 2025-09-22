@@ -5,6 +5,8 @@ subtitle: Sustainable-focused copy highlighting quality craftsmanship and enviro
 client: Honoré Farm & Mill
 date: 2022-01-28
 tags: [copywriting, sustainability]
+thumbnail-image: ../assets/thumbnails/Honore-Farm-&-Mill.png
+pdf: ../assets/pdfs/Honore-Farm-&-Mill.pdf
 ---
 
 While working with Honoré Farm and Mill on their Development strategy I had the opportunity to write a few product descriptions for their newer offerings. They wanted to highlight the high quality of the linen used for these products and the sustainable values of their company.

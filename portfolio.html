@@ -9,14 +9,17 @@ title: Portfolio
         {% continue %}
     {% endif %}
     <div class="post-card">
-        <div>
-            <a class="title" href="{{site.baseurl}}{{ post.url }}">
+        {% if post.thumbnail-image %}
+            <img class="post-thumbnail" src="{{ post.thumbnail-image }}" alt="Post thumbnail image">
+        {% endif %}
+        <a class="title" href="{{site.baseurl}}{{ post.url }}">
+            <div class="title">
                 {{ post.title }}
-            </a>
+            </div>
             <div class="subtitle">
                 {{ post.subtitle }}
             </div>
-        </div>
+        </a>
         <div class="details">
             <div class="monospace">{{ post.date | date: "%d %B %Y" }}</div>
             {% if post.tags %}
