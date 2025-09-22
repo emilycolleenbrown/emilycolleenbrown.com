@@ -3,7 +3,7 @@ layout: post
 title: How 2 hours of ILT can save your team 50
 subtitle: Narrative-driven article addressing IT manager pain points with software training and adoption
 client: BrainStorm
-date: 2022-01-27
+date: 2021-12-08
 tags: [content-marketing, software-training]
 thumbnail-image: ../assets/thumbnails/2-Hours-ILT.png
 link: https://www.brainstorminc.com/blog/how-ilt-saves-tech-users-time
