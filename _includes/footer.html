@@ -1,8 +1,8 @@
 <div class="footer navbar-container">
     <div class="monospace">© {{ site.time | date: "%Y" }} Emily Brown</div>
-    <div>
-        <a href="https://twitter.com/emilybrownmusic" target="_blank" class="">Twitter</a>
-        <a href="https://instagram.com/emilybrownmusic" target="_blank" class="">Instagram</a>
-        <a href="mailto:Emilycolleenbrown@gmail.com" target="_blank" class="">Email</a>
+    <div class="footer-nav">
+        {% for x in site.footer %}
+        <a href="{{ x.absolute-link }}" target="_blank" class="footer-link">{{ x.name }}</a>{% if forloop.last == false %}<span class="nav-separator">/</span>{% endif %}
+        {% endfor %}
     </div>
 </div>

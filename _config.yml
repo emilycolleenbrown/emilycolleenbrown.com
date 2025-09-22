@@ -8,7 +8,7 @@ baseurl: ""
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
 
-permalink: /:year-:month-:day-:title/
+permalink: /:title/
 sass:
     style: compressed
     sass_dir: css
@@ -16,5 +16,13 @@ sass:
 navbar:
  - name: "Portfolio ☙"
    link: "portfolio"
- - name: "Resume ↓"
+ - name: "Resume ⤓"
    absolute-link: "https://emilycolleenbrown.com/assets/EmilyBrown—Resume.pdf"
+
+footer:
+ - name: "Twitter"
+   absolute-link: "https://twitter.com/emilybrownmusic"
+ - name: "Instagram"
+   absolute-link: "https://instagram.com/emilybrownmusic"
+ - name: "Email"
+   absolute-link: "mailto:Emilycolleenbrown@gmail.com"

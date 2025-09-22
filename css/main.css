@@ -106,8 +106,7 @@ code {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--spacing-md);
-  position: relative;
-  min-height: 100vh;
+  transition: var(--transition-smooth);
 }
 
 /* Navigation */
@@ -158,7 +157,22 @@ code {
   font-size: var(--font-size-lg);
   color: var(--color-text);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-style: italic;
+  
+  /* OpenType features for stylistic flourishes */
+  font-feature-settings: 
+    "swsh" 1,     /* Swashes */
+    "calt" 1,     /* Contextual alternates */
+    "ss01" 1,     /* Stylistic set 1 */
+    "ss02" 1,     /* Stylistic set 2 */
+    "ss03" 1,     /* Stylistic set 3 */
+    "liga" 1,     /* Ligatures */
+    "dlig" 1;     /* Discretionary ligatures */
+    
+  /* CSS font-variant properties (newer syntax) */
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-variant-alternates: stylistic(salt) swash(swsh);
 }
 
 /* Post Cards */
@@ -220,6 +234,22 @@ code {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 /* Content Typography */
 .content {
   line-height: var(--line-height);
@@ -256,7 +286,10 @@ code {
 .content p:first-of-type {
   margin-top: 0;
 }
-
+.content p {
+  max-width: 600px;
+  text-indent: 3rem;
+}
 /* Lists */
 .content ol {
   counter-reset: list;
@@ -298,8 +331,23 @@ code {
 .content img {
   text-align: center;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
+}
+
+img[src*='#left'] {
+    float: left;
+    margin-right: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+}
+img[src*='#right'] {
+    float: right;
+    margin-left: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+}
+img[src*='#center'] {
+    display: block;
+    margin: var(--spacing-md) auto;
 }
 
 .content .profile-picture {
@@ -385,68 +433,10 @@ table tr td:last-child {
   margin: 0;
 }
 
-/* Two-column layout */
-.two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-xl);
-  align-items: start;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.column img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  object-fit: cover;
-}
-
-/* Responsive Design */
-@media (max-width: 800px) {
-  .container {
-    max-width: var(--med-width);
-    transition: var(--transition-smooth);
-  }
-}
-
-@media (max-width: 650px) {
-  .container {
-    max-width: 83%;
-  }
-
-  .two-column {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-md);
-  }
-}
-
 @media (max-width: 500px) {
-  .navbar-container {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--spacing-md);
-  }
-  
-  .navbar {
-    padding: var(--spacing-xl) 0 0 0;
-  }
-  
-  .navbar-nav {
-    flex-direction: column;
-    gap: var(--spacing-xs);
-  }
-  
   .nav-item {
     flex-direction: row;
     justify-content: center;
-  }
-  
-  .site-title {
-    width: 100%;
   }
   
   .post-card {
