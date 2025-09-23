@@ -292,11 +292,8 @@ code {
 .content p:first-of-type {
   margin-top: 0;
 }
-.content p {
+.post-content p {
   max-width: 600px;
-}
-.content p:has(img) + p {
-    max-width: none;
 }
 /* Lists */
 .content ol {
