@@ -7,7 +7,7 @@ url: "https://emilycolleenbrown.com"
 baseurl: ""
 
 profile-picture: assets/profile.png
-favicon_location: assets/favicon.ico
+favicon_location: assets/favicon.png
 
 permalink: /:title/
 sass:
