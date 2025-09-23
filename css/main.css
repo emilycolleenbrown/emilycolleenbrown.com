@@ -294,7 +294,6 @@ code {
 }
 .content p {
   max-width: 600px;
-  text-indent: 3rem;
 }
 .content p:has(img) + p {
     max-width: none;
