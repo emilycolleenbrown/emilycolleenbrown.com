@@ -4,7 +4,7 @@ title: The Tender Satire of Gregory Barnes' The Touch of the Master's Hand
 subtitle: Long-form interview with Sundance award-winning filmmaker about Mormon identity and shame
 client: MAYDAY
 date: 2021-04-03
-tags: [interview, film-criticism]
+tags: [interview, arts]
 thumbnail-image: ../assets/thumbnails/Gregory-Barnes.png
 link: https://maydaymagazine.com/the-tender-satire-of-gregory-barnes-the-touch-of-the-masters-hand-by-emily-brown/
 ---

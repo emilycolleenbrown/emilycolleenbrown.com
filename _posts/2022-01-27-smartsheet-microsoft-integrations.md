@@ -4,7 +4,7 @@ title: Smartsheet Integrations with Microsoft 365
 subtitle: Comprehensive guide exploring partnership opportunities and workflow integrations between platforms
 client: BrainStorm
 date: 2022-01-27
-tags: [content-marketing, software-integration]
+tags: [content-marketing, software-training]
 thumbnail-image: ../assets/thumbnails/Smartsheet-Integrations.png
 link: https://www.brainstorminc.com/blog/smartsheet-integrations-with-microsoft-365
 ---

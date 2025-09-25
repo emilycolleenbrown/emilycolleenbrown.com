@@ -4,7 +4,7 @@ title: Reading Is Instrumental
 subtitle: Marketing collateral for collaborative musical storytime series between library and symphony
 client: Berkeley Public Library Foundation
 date: 2020-10-09
-tags: [marketing, community-engagement]
+tags: [marketing, copywriting]
 thumbnail-image: ../assets/thumbnails/Berkeley-Public-Library.png
 link: https://bplf.org/reading-is-instrumental/
 ---

@@ -4,7 +4,7 @@ title: Delicious Descriptions for Gluten-Free Treats
 subtitle: Comprehensive product description overhaul for artisanal gluten-free bakery's full product line
 client: Mariposa Baking Company
 date: 2018-03-15
-tags: [copywriting, food-marketing]
+tags: [copywriting, marketing]
 thumbnail-image: ../assets/thumbnails/Mariposa-Baking-Company.png
 link: https://www.mariposabaking.com/collections/sweets/products/california-lemon-cake
 ---
