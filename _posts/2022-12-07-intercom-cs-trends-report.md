@@ -1,12 +1,12 @@
 ---
 layout: post
-title: The State of AI in Customer Service
-subtitle: Blog ads, banners, emails, and DRLP copy for Intercom's first State of AI in Customer Service Report.
+title: Customer Service Trends Report
+subtitle: Marketing asset copy for Intercom's annual Customer Service Trends Report
 client: Intercom
-date: 2023-06-20
-tags: [copywriting, landing-page]
-thumbnail-image: ../assets/thumbnails/State-of-AI-CS.png
-pdf: ../assets/pdfs/State-of-AI-CS.pdf
+date: 2023-12-07
+tags: [copywriting, landing-page, emails]
+thumbnail-image: ../assets/thumbnails/CS-Trends.png
+pdf: ../assets/pdfs/Intercom-CS-Trends.pdf
 ---
 
-I wrote and edited copy for all marketing assets related to Intercom's State of AI in Customer Service Report, their first thought leadership gated content in the AI space.
+I wrote and edited copy for all marketing assets pertaining to Intercom's annual Customer Service Trends Report, featuring data collected from customer service professionals and competitive strategies for the coming year.
