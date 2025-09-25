@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Interview with Painter Madeline Rupard
-subtitle: I interviewed painter Madeline Rupard in advance of her show Light Is the Thing A Body Moves Through
-client: Intercom
-date: 2023-05-24
+title: This Isn't About Time
+subtitle: A conversation with Madeline Rupard in advance of her show Light Is the Thing A Body Moves Through
+client: Brigham Young University
+date: 2021-07-30
 tags: [copywriting, landing-page]
 thumbnail-image: ../assets/thumbnails/Madeline-Rupard.png
 pdf: ../assets/pdfs/Madeline-Rupard.pdf

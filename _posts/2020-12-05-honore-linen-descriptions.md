@@ -3,7 +3,7 @@ layout: post
 title: Product Descriptions for Linen Goods
 subtitle: Sustainable-focused copy highlighting quality craftsmanship and environmental values for farm mill
 client: Honoré Farm & Mill
-date: 2021-12-05
+date: 2020-12-05
 tags: [copywriting, sustainability]
 thumbnail-image: ../assets/thumbnails/Honore-Farm-&-Mill.png
 pdf: ../assets/pdfs/Honore-Farm-&-Mill.pdf
