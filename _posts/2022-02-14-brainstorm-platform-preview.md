@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BrainStorm Platform Preview - Landing Page Copy
-subtitle: Excited, fresh messaging for educational platform soft launch to generate customer excitement
+subtitle: Energetic, educational copy inviting current BrainStorm customers to test their new platform
 client: BrainStorm
 date: 2022-02-14
 tags: [copywriting, landing-page]

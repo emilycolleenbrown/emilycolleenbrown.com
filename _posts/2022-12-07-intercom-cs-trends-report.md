@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customer Service Trends Report
-subtitle: Marketing asset copy for Intercom's annual Customer Service Trends Report
+subtitle: Marketing asset copy teasing tips, tricks, and data from Intercom's annual Customer Service Trends Report
 client: Intercom
 date: 2023-12-07
 tags: [copywriting, landing-page, emails]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intercom's AI Bot Launch
-subtitle: Ads, banners, all manner of announcement went into Intercom's big launch for Fin, their AI-powered chatbot.
+subtitle: Ads, banners, and every kind of big announcement went into Intercom's big launch for Fin, their AI-powered chatbot.
 client: Intercom
 date: 2023-03-23
 tags: [copywriting, landing-page, emails]

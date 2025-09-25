@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The State of AI in Customer Service
-subtitle: Blog ads, banners, emails, and DRLP copy for Intercom's first State of AI in Customer Service Report.
+subtitle: Blog ads, banners, emails, and DRLP copy for Intercom's very first State of AI in Customer Service Report.
 client: Intercom
 date: 2023-05-24
 tags: [copywriting, landing-page]
