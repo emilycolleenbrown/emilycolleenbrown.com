@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The State of AI in Customer Service
-subtitle: Excited, fresh messaging for educational platform soft launch to generate customer excitement
+subtitle: Landing page, email marketing, and ad copy for Intercom's first State of AI in Customer Service Report.
 client: Intercom
 date: 2023-06-20
 tags: [copywriting, landing-page]
