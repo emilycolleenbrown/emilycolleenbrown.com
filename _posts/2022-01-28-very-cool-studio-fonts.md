@@ -3,7 +3,7 @@ layout: post
 title: Ridiculous Font Descriptions
 subtitle: Humorous product copy combining type design expertise with absurd humor for independent foundry
 client: Very Cool Studio
-date: 2022-01-28
+date: 2017-04-13
 tags: [copywriting, humor, design]
 thumbnail-image: ../assets/thumbnails/Very-Cool-Studio.png
 pdf: ../assets/pdfs/Very-Cool-Studio.pdf
